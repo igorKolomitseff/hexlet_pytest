@@ -28,5 +28,5 @@ def test_emptiness():
 def test_pop_with_empty_stack():
     stack = []
     
-    with pytest.taises(IndexError):
+    with pytest.raises(IndexError):
         stack.pop()
