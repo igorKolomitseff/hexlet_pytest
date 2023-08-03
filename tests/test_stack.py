@@ -6,3 +6,17 @@ def test_stack():
 
     assert stack.pop()
     assert stack.pop()
+
+
+def test_emptiness():
+    stack = []
+
+    assert not stack
+
+    stack.append('one')
+
+    assert bool(stack)
+
+    stack.pop()
+
+    assert not stack
