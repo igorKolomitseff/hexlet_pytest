@@ -7,5 +7,5 @@ def reverse(string: str) -> str:
     Returns:
         Reversed string.
     """
-    
+
     return string[::-1]
