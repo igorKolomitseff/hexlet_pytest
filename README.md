@@ -1,0 +1,1 @@
+![GitHub Actions](https://github.com/igorKolomitseff/hexlet_pytest/actions/workflows/hello-world.yml/badge.svg)
